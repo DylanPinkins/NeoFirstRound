@@ -1,0 +1,337 @@
+{
+  "users": [
+    {
+      "id": "u_ecc1b53b82f2",
+      "name": "Test User",
+      "email": "test@example.com",
+      "passwordHash": "7f2cbc52b5269c82377626bb082d045313aa585b9483e4c2ed7bd2577018e698",
+      "salt": "5b05ccca0e62218920709f731666d964",
+      "color": "#4285f4"
+    },
+    {
+      "id": "u_933f1cb620d4",
+      "name": "Dylan Test ",
+      "email": "pinkinsdylan@gmail.com",
+      "passwordHash": "96d821a5e13a30aa5f3dc9668b0ad1b62faa85b78ddd7dc20962c22a9528dc29",
+      "salt": "e9cfb550349846ef62f4df8c4ec7cac2",
+      "color": "#ea4335"
+    },
+    {
+      "id": "u_5acd4517286f",
+      "name": "Bob Dylan",
+      "email": "bulldogdap41@gmail.com",
+      "passwordHash": "ef7a51977e629c2c4cc8c21a4e37f1d4b00416ff19621e855d41c39850b70c40",
+      "salt": "74854700ebdb2791d5cd60034462480e",
+      "color": "#fbbc04"
+    },
+    {
+      "id": "u_66d3838240f4",
+      "name": "Tom Hanks",
+      "email": "pinkinsdylan@gmai.com",
+      "passwordHash": "a73c254d0c995514ed7b048d9b0af3e4ebc045474a37fa645177036acea04c11",
+      "salt": "82b952f6723d4224a49a95645123b947",
+      "color": "#34a853"
+    },
+    {
+      "id": "u_06810701037b",
+      "name": "Dylan Pinkins",
+      "email": "alexdadog41@gmail.com",
+      "passwordHash": "5bb4e360191a786750749e8cd58c6e94f18cc831d763d52eec19a119dcf69f43",
+      "salt": "c84c45e4709a0b5bf0eb98d1003f3a86",
+      "color": "#9c27b0"
+    }
+  ],
+  "promptTrees": [
+    {
+      "root": {
+        "id": "p2",
+        "title": "Code Reviewer",
+        "body": "You are a senior engineer reviewing a code change. Find the most important issue first. Suggest a specific fix. Limit your response to 3 sentences. I am Tom Hanks.",
+        "parentId": null,
+        "createdAt": "2026-06-04T17:31:13.435Z",
+        "createdBy": "system"
+      },
+      "variants": [
+        {
+          "id": "p2",
+          "title": "Code Reviewer",
+          "body": "You are a senior engineer reviewing a code change. Find the most important issue first. Suggest a specific fix. Limit your response to 3 sentences. I am Tom Hanks.",
+          "parentId": null,
+          "createdAt": "2026-06-04T17:31:13.435Z",
+          "createdBy": "system"
+        },
+        {
+          "id": "p_1e57e87ab8f5",
+          "title": "Senior engineer review optimized (promoted 6/4/2026)",
+          "body": "You are a senior engineer reviewing a code change. Find the most important issue first. Suggest a specific fix. Limit your response to 3 sentences.",
+          "parentId": "p2",
+          "createdAt": "2026-06-04T17:44:19.840Z",
+          "createdBy": "u_ecc1b53b82f2"
+        },
+        {
+          "id": "p_3648adff8d1f",
+          "title": "Code Reviewer (fork)",
+          "body": "You are a senior engineer reviewing a code change. Find the most important issue first. Suggest a specific fix. Limit your response to 3 sentences. I am Tom Hanks.",
+          "parentId": "p2",
+          "createdAt": "2026-06-04T18:00:43.604Z",
+          "createdBy": "u_66d3838240f4"
+        }
+      ],
+      "mainId": "p_1e57e87ab8f5"
+    },
+    {
+      "root": {
+        "id": "p3",
+        "title": "Plain-English Explainer",
+        "body": "Explain the concept to someone with one year of experience in the field. Use a single concrete example. Avoid jargon without immediate definition.",
+        "parentId": null,
+        "createdAt": "2026-06-04T17:31:13.435Z",
+        "createdBy": "system"
+      },
+      "variants": [
+        {
+          "id": "p3",
+          "title": "Plain-English Explainer",
+          "body": "Explain the concept to someone with one year of experience in the field. Use a single concrete example. Avoid jargon without immediate definition.",
+          "parentId": null,
+          "createdAt": "2026-06-04T17:31:13.435Z",
+          "createdBy": "system"
+        }
+      ],
+      "mainId": "p3"
+    },
+    {
+      "root": {
+        "id": "p4",
+        "title": "Structured Extractor",
+        "body": "Extract structured data from the text. Return JSON only. Keys: { dates: [], people: [], locations: [] }. Use ISO dates. No duplicates.",
+        "parentId": null,
+        "createdAt": "2026-06-04T17:31:13.435Z",
+        "createdBy": "system"
+      },
+      "variants": [
+        {
+          "id": "p4",
+          "title": "Structured Extractor",
+          "body": "Extract structured data from the text. Return JSON only. Keys: { dates: [], people: [], locations: [] }. Use ISO dates. No duplicates.",
+          "parentId": null,
+          "createdAt": "2026-06-04T17:31:13.435Z",
+          "createdBy": "system"
+        }
+      ],
+      "mainId": "p4"
+    },
+    {
+      "root": {
+        "id": "p_1f29b729afa1",
+        "title": "Test Prompt",
+        "body": "",
+        "parentId": null,
+        "createdAt": "2026-06-04T17:49:25.707Z",
+        "createdBy": "u_933f1cb620d4"
+      },
+      "variants": [
+        {
+          "id": "p_1f29b729afa1",
+          "title": "Test Prompt",
+          "body": "",
+          "parentId": null,
+          "createdAt": "2026-06-04T17:49:25.707Z",
+          "createdBy": "u_933f1cb620d4"
+        }
+      ],
+      "mainId": "p_1f29b729afa1"
+    }
+  ],
+  "archivedTrees": [
+    {
+      "tree": {
+        "root": {
+          "id": "p1",
+          "title": "Article Summarizer",
+          "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'. I am here. Hello hello. \n\nThis is Bob. ",
+          "parentId": null,
+          "createdAt": "2026-06-04T17:31:13.435Z",
+          "createdBy": "system"
+        },
+        "variants": [
+          {
+            "id": "p1",
+            "title": "Article Summarizer",
+            "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'. I am here. Hello hello. \n\nThis is Bob. ",
+            "parentId": null,
+            "createdAt": "2026-06-04T17:31:13.435Z",
+            "createdBy": "system"
+          },
+          {
+            "id": "p_dbf8fcb1d1de",
+            "title": "You are a precise article summarizer.… (promoted 6/4/2026)",
+            "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'.",
+            "parentId": "p1",
+            "createdAt": "2026-06-04T17:31:33.861Z",
+            "createdBy": "u_ecc1b53b82f2"
+          },
+          {
+            "id": "p_8f9f605d4ca9",
+            "title": "Article Summarizer (fork)",
+            "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'. I am here. Hello hello. \n\nThis is Bob. ",
+            "parentId": "p1",
+            "createdAt": "2026-06-04T17:50:30.307Z",
+            "createdBy": "u_5acd4517286f"
+          }
+        ],
+        "mainId": "p_dbf8fcb1d1de"
+      },
+      "archivedAt": "2026-06-04T18:00:59.046Z",
+      "archivedBy": "u_66d3838240f4",
+      "permanentDeleteAt": "2026-06-11T18:00:59.046Z"
+    }
+  ],
+  "versions": {
+    "p1": [
+      {
+        "id": "v_51559ddaa2af",
+        "promptId": "p1",
+        "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'. I am here. Hello hello. \n\nThis is Bob. ",
+        "userId": "u_5acd4517286f",
+        "userName": "Bob Dylan",
+        "reason": "promote",
+        "createdAt": "2026-06-04T17:51:26.097Z"
+      },
+      {
+        "id": "v_27857d69a628",
+        "promptId": "p1",
+        "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'. I am here. Hello hello. \n\nThis is Bob. ",
+        "userId": "u_5acd4517286f",
+        "userName": "Bob Dylan",
+        "reason": "run",
+        "createdAt": "2026-06-04T17:51:08.543Z"
+      },
+      {
+        "id": "v_450a6e1fbfba",
+        "promptId": "p1",
+        "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'. I am here. Hello hello. \n\nThis is Bob. ",
+        "userId": "u_5acd4517286f",
+        "userName": "Bob Dylan",
+        "reason": "fork",
+        "createdAt": "2026-06-04T17:50:28.545Z"
+      },
+      {
+        "id": "v_f8dfbd0917a1",
+        "promptId": "p1",
+        "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'.",
+        "userId": "u_ecc1b53b82f2",
+        "userName": "Test User",
+        "reason": "run",
+        "createdAt": "2026-06-04T17:45:47.837Z"
+      },
+      {
+        "id": "v_8089889fb904",
+        "promptId": "p1",
+        "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'.",
+        "userId": "u_ecc1b53b82f2",
+        "userName": "Test User",
+        "reason": "run",
+        "createdAt": "2026-06-04T17:45:28.513Z"
+      },
+      {
+        "id": "v_ecf80b7697cc",
+        "promptId": "p1",
+        "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'.",
+        "userId": "u_ecc1b53b82f2",
+        "userName": "Test User",
+        "reason": "run",
+        "createdAt": "2026-06-04T17:31:48.152Z"
+      }
+    ],
+    "p_dbf8fcb1d1de": [
+      {
+        "id": "v_d059081fb7e1",
+        "promptId": "p_dbf8fcb1d1de",
+        "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'.",
+        "userId": "u_5acd4517286f",
+        "userName": "Bob Dylan",
+        "reason": "run",
+        "createdAt": "2026-06-04T17:51:08.544Z"
+      },
+      {
+        "id": "v_1f2fec84986f",
+        "promptId": "p_dbf8fcb1d1de",
+        "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'.",
+        "userId": "u_ecc1b53b82f2",
+        "userName": "Test User",
+        "reason": "run",
+        "createdAt": "2026-06-04T17:45:47.837Z"
+      },
+      {
+        "id": "v_c3cd2de34473",
+        "promptId": "p_dbf8fcb1d1de",
+        "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'.",
+        "userId": "u_ecc1b53b82f2",
+        "userName": "Test User",
+        "reason": "run",
+        "createdAt": "2026-06-04T17:45:28.514Z"
+      },
+      {
+        "id": "v_86cac3fe1dbd",
+        "promptId": "p_dbf8fcb1d1de",
+        "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'.",
+        "userId": "u_ecc1b53b82f2",
+        "userName": "Test User",
+        "reason": "run",
+        "createdAt": "2026-06-04T17:31:48.153Z"
+      }
+    ],
+    "p_1e57e87ab8f5": [
+      {
+        "id": "v_cfb070e84583",
+        "promptId": "p_1e57e87ab8f5",
+        "body": "You are a senior engineer...",
+        "userId": "u_ecc1b53b82f2",
+        "userName": "Test User",
+        "reason": "promote",
+        "createdAt": "2026-06-04T17:45:04.968Z"
+      }
+    ],
+    "p_8f9f605d4ca9": [
+      {
+        "id": "v_8b3f050d9681",
+        "promptId": "p_8f9f605d4ca9",
+        "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'. I am here. Hello hello. \n\nThis is Bob. ",
+        "userId": "u_5acd4517286f",
+        "userName": "Bob Dylan",
+        "reason": "auto-save",
+        "createdAt": "2026-06-04T17:52:13.641Z"
+      },
+      {
+        "id": "v_acf21c8888cc",
+        "promptId": "p_8f9f605d4ca9",
+        "body": "You are a precise article summarizer. Output exactly 3 bullets, each <= 15 words. Lead with the article's main claim. No preamble. No 'Here is'. I am here. Hello hello. \n\nThis is Bob. ",
+        "userId": "u_5acd4517286f",
+        "userName": "Bob Dylan",
+        "reason": "run",
+        "createdAt": "2026-06-04T17:51:08.545Z"
+      }
+    ],
+    "p2": [
+      {
+        "id": "v_407f279dda8d",
+        "promptId": "p2",
+        "body": "You are a senior engineer reviewing a code change. Find the most important issue first. Suggest a specific fix. Limit your response to 3 sentences. I am Tom Hanks.",
+        "userId": "u_66d3838240f4",
+        "userName": "Tom Hanks",
+        "reason": "auto-save",
+        "createdAt": "2026-06-04T18:01:57.718Z"
+      },
+      {
+        "id": "v_9581cd9d73da",
+        "promptId": "p2",
+        "body": "You are a senior engineer reviewing a code change. Find the most important issue first. Suggest a specific fix. Limit your response to 3 sentences. I am Tom Hanks.",
+        "userId": "u_66d3838240f4",
+        "userName": "Tom Hanks",
+        "reason": "fork",
+        "createdAt": "2026-06-04T18:00:42.560Z"
+      }
+    ]
+  }
+}
